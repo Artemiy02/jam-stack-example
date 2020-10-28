@@ -35,7 +35,7 @@ export const LinkCard = ({ link }) => {
     <div className="card mb-3">
       <div className="card-header">{link.name}</div>
       <div className="card-body">
-        <a href="{link.url}">{link.url}</a>
+        <a href={link.url}>{link.url}</a>
         <p>{link.description}</p>
       </div>
       <div className="card-footer">
